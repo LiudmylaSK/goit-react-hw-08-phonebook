@@ -1,0 +1,48 @@
+.listItem {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+
+  margin-bottom: 10px;
+
+  font-size: 18px;
+  font-weight: 700;
+
+  color: rgb(18, 27, 189);
+}
+
+.listItem:hover,
+.listItem:focus {
+  color: rgb(222, 223, 243);
+}
+
+.name {
+  margin-right: auto;
+}
+
+.buttonDeleteItem {
+  min-width: 70px;
+  padding: 5px;
+
+  font-weight: 700;
+
+  color: rgb(251, 249, 220);
+  background-color: rgb(87, 61, 236);
+
+  border: none;
+  border-radius: 20px;
+  box-shadow: 2px 2px 4px rgba(204, 205, 222, 0.8),
+    4px 4px 6px rgba(220, 220, 228, 0.6);
+
+  cursor: pointer;
+
+  transition: scale ease-in-out 250ms;
+}
+
+.buttonDeleteItem:hover,
+.buttonDeleteItem:focus {
+  background-color: rgb(75, 47, 233);
+  scale: 1.03;
+}

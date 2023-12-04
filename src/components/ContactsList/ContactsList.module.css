@@ -1,0 +1,25 @@
+.contactsList {
+  display: flex;
+  flex-direction: column;
+
+  gap: 4px;
+  padding: 20px;
+
+  max-height: 500px;
+
+  list-style: none;
+
+  background: rgb(89, 192, 236);
+  border-radius: 20px;
+
+  overflow: auto;
+
+  box-shadow: 2px 2px 4px rgba(204, 205, 222, 0.8),
+    4px 4px 6px rgba(220, 220, 228, 0.6);
+}
+
+.contactText {
+  font-size: 18px;
+  font-weight: 500;
+  padding-left: 10px;
+}

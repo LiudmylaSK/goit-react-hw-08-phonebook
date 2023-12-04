@@ -1,0 +1,36 @@
+.userMenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.userName {
+  font-weight: 600;
+  color: rgb(18, 27, 189);
+  text-shadow: 2px 2px 4px rgba(204, 205, 222, 0.8),
+    4px 4px 6px rgba(220, 220, 228, 0.6);
+}
+
+.logOutBtn {
+  min-width: 70px;
+  padding: 5px;
+
+  font-weight: 700;
+
+  color: rgb(251, 249, 220);
+  background-color: rgb(87, 61, 236);
+
+  border: none;
+  border-radius: 20px;
+  box-shadow: 2px 2px 4px rgba(204, 205, 222, 0.8),
+    4px 4px 6px rgba(220, 220, 228, 0.6);
+
+  cursor: pointer;
+
+  transition: scale ease-in-out 250ms;
+}
+
+.logOutBtn:hover {
+  scale: 1.1;
+}
